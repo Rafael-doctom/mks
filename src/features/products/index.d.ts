@@ -14,7 +14,7 @@ export interface Products {
 export interface IProductsState extends IRequestTrack {
   [x: string]: any;
   id?: boolean | nul;
-  products: User;
+  products: Products;
 }
 
 /**
